@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101a24">
+<meta name="description" content="喀什 × 塔县旅行指南：古城、帕米尔高原、白沙湖、喀拉库勒湖、石头城、金草滩、盘龙古道。">
+<title>喀什 · 帕米尔｜旅行指南</title>
+<style>
+:root{
+  --bg:#f4f0e8; --ink:#17222b; --muted:#68747b; --card:#fffdf8;
+  --dark:#101a24; --gold:#c69a52; --sand:#dfc89b; --line:#ddd5c7;
+  --green:#49665b; --red:#9a5c4b; --shadow:0 16px 50px rgba(26,34,38,.12);
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 22px}
+.hero{min-height:690px;background:
+ radial-gradient(circle at 75% 30%,rgba(198,154,82,.28),transparent 25%),
+ linear-gradient(145deg,#0b141d 0%,#172b38 52%,#35434a 100%);color:white;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:auto -5% 0;height:52%;background:
+ linear-gradient(160deg,transparent 0 33%,#263840 34% 48%,transparent 49%),
+ linear-gradient(20deg,transparent 0 40%,#162932 41% 64%,transparent 65%);
+opacity:.9}
+.nav{position:relative;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+.logo{font-weight:800;letter-spacing:.08em}.navlinks{display:flex;gap:20px;font-size:13px;color:#dbe2e3}
+.hero-copy{position:relative;z-index:5;padding:72px 0 150px;max-width:760px}
+.eyebrow{color:#e2bd78;letter-spacing:.18em;font-size:12px;font-weight:800}
+h1{font-family:Georgia,"Times New Roman",serif;font-weight:500;font-size:clamp(58px,9vw,112px);line-height:.9;margin:18px 0}
+.hero p{max-width:650px;color:#d9e0e1;font-size:18px}
+.badges{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}.badge{border:1px solid rgba(255,255,255,.24);padding:7px 12px;border-radius:999px;font-size:12px;background:rgba(255,255,255,.06)}
+.mountain{position:absolute;z-index:2;bottom:-1px;left:0;right:0;height:250px;background:linear-gradient(135deg,transparent 0 10%,#0e1a22 10% 30%,transparent 30% 39%,#15252d 39% 58%,transparent 58% 68%,#0d171f 68%);clip-path:polygon(0 55%,9% 36%,16% 57%,26% 20%,34% 52%,45% 11%,56% 50%,66% 26%,77% 56%,87% 18%,100% 48%,100% 100%,0 100%)}
+section{padding:78px 0}.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:30px}
+.kicker{font-size:11px;letter-spacing:.18em;color:var(--gold);font-weight:900}.section-head h2{font:500 clamp(34px,5vw,54px)/1.05 Georgia,serif;margin:7px 0 0}.section-head p{max-width:480px;color:var(--muted);margin:0}
+.route{background:var(--dark);color:white;border-radius:26px;padding:28px;box-shadow:var(--shadow);overflow:hidden}
+.route-line{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin:25px 0 12px}
+.stop{text-align:center;position:relative;font-size:12px;color:#b8c2c5}.stop:before{content:"";display:block;width:16px;height:16px;border:3px solid var(--gold);background:var(--dark);border-radius:50%;margin:0 auto 10px;position:relative;z-index:2}.stop:not(:last-child):after{content:"";position:absolute;height:2px;background:#53616a;top:8px;left:50%;width:100%}.stop strong{display:block;color:#fff;font-size:13px}.route-note{color:#b8c2c5;font-size:13px;margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:25px;box-shadow:0 8px 30px rgba(36,42,43,.05)}.card .num{font:500 36px Georgia;color:var(--gold)}.card h3{margin:8px 0 6px;font-size:21px}.card p{color:var(--muted);font-size:14px}.tag{display:inline-block;font-size:11px;padding:4px 8px;border-radius:999px;background:#eee6d7;color:#66502e;margin:2px 3px 2px 0}
+.spots{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}.spot-main{min-height:410px;border-radius:26px;padding:30px;color:#fff;background:linear-gradient(145deg,#273d46,#111c25);position:relative;overflow:hidden}.spot-main:after{content:"";position:absolute;width:360px;height:360px;right:-100px;bottom:-120px;border-radius:50%;background:radial-gradient(circle,#d7b46e55,transparent 65%)}.spot-main h3{font:500 48px Georgia;margin:30px 0 10px;position:relative;z-index:2}.spot-main p{max-width:580px;color:#d5dede;position:relative;z-index:2}.spot-list{display:grid;gap:12px}.spot-item{padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:18px}.spot-item strong{display:block}.spot-item span{font-size:13px;color:var(--muted)}
+.tabs{display:flex;gap:8px;overflow:auto;padding-bottom:8px}.tab{border:1px solid var(--line);background:var(--card);padding:11px 17px;border-radius:999px;white-space:nowrap;cursor:pointer;font-weight:700}.tab.active{background:var(--dark);color:white;border-color:var(--dark)}
+.day{display:none;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:26px}.day.active{display:block}.daygrid{display:grid;grid-template-columns:130px 1fr;gap:18px;padding:15px 0;border-bottom:1px dashed var(--line)}.daygrid:last-child{border-bottom:0}.time{font-weight:800;color:var(--gold)}
+.tips{background:#e8e0d0}.tipgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.tip{background:rgba(255,255,255,.55);border-radius:18px;padding:18px}.tip b{display:block;margin-bottom:5px}.tip span{font-size:13px;color:#5f686b}
+.checklist{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.check{display:flex;gap:12px;align-items:start;background:var(--card);border:1px solid var(--line);padding:15px;border-radius:16px}.check input{margin-top:5px;accent-color:var(--gold)}
+.footer{background:var(--dark);color:#c6d0d2;padding:42px 0;font-size:13px}.footer strong{color:#fff}.small{font-size:12px;color:#829096}
+.cta{display:inline-flex;align-items:center;gap:9px;margin-top:15px;background:#e3bf78;color:#17222b;padding:11px 16px;border-radius:999px;font-weight:800;font-size:13px}
+@media(max-width:800px){.navlinks{display:none}.hero{min-height:640px}.hero-copy{padding-top:65px}.cards,.tipgrid{grid-template-columns:1fr 1fr}.spots{grid-template-columns:1fr}.route-line{grid-template-columns:repeat(3,1fr);row-gap:22px}.stop:nth-child(3):after{display:none}}
+@media(max-width:560px){.wrap{padding:0 17px}section{padding:55px 0}.cards,.tipgrid,.checklist{grid-template-columns:1fr}.route{padding:20px}.route-line{grid-template-columns:repeat(2,1fr)}.stop:nth-child(2):after,.stop:nth-child(4):after,.stop:nth-child(6):after{display:none}.daygrid{grid-template-columns:82px 1fr}.spot-main h3{font-size:39px}.hero p{font-size:16px}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="wrap">
+    <nav class="nav"><div class="logo">KASHGAR / PAMIR</div><div class="navlinks"><a href="#route">路线</a><a href="#spots">景点</a><a href="#plan">行程</a><a href="#tips">攻略</a></div></nav>
+    <div class="hero-copy">
+      <div class="eyebrow">SOUTHERN XINJIANG · 2026 TRAVEL GUIDE</div>
+      <h1>喀什<br>到帕米尔</h1>
+      <p>从千年古城出发，沿中巴友谊公路进入帕米尔高原。把喀什的人文、白沙湖的风、慕士塔格的雪山，以及塔县的石头城与金草滩，串成一条完整的旅程。</p>
+      <div class="badges"><span class="badge">喀什古城</span><span class="badge">白沙湖</span><span class="badge">喀拉库勒湖</span><span class="badge">塔县</span><span class="badge">盘龙古道</span></div>
+      <a class="cta" href="#plan">开始规划 →</a>
+    </div>
+  </div>
+  <div class="mountain"></div>
+</header>
+
+<main>
+<section id="route">
+<div class="wrap">
+  <div class="section-head"><div><div class="kicker">THE CLASSIC LINE</div><h2>一条线，玩懂喀什与塔县</h2></div><p>最适合第一次来的人文 + 高原组合。帕米尔沿线景点集中，通常安排 2–3 天；喀什市区建议单独留出 1–2 天。</p></div>
+  <div class="route">
+    <div style="font-size:13px;color:#aeb9bc">经典方向 · 喀什 → 塔县</div>
+    <div class="route-line">
+      <div class="stop"><strong>喀什</strong>古城</div>
+      <div class="stop"><strong>盖孜峡谷</strong>进山</div>
+      <div class="stop"><strong>白沙湖</strong>沙山湖泊</div>
+      <div class="stop"><strong>喀拉库勒湖</strong>雪山倒影</div>
+      <div class="stop"><strong>塔县</strong>石头城·金草滩</div>
+      <div class="stop"><strong>盘龙古道</strong>班迪尔</div>
+    </div>
+    <p class="route-note">核心逻辑：喀什负责“人文与烟火气”，帕米尔负责“雪山与高原尺度”，塔县负责“历史、民族文化与边地风景”。</p>
+  </div>
+</div>
+</section>
+
+<section id="spots">
+<div class="wrap">
+  <div class="section-head"><div><div class="kicker">MUST SEE</div><h2>值得把时间留给谁？</h2></div><p>帕米尔旅游区是国家 5A 景区，由石头城、金草滩、塔吉克民俗村等组成。</p></div>
+  <div class="spots">
+    <div class="spot-main"><div class="kicker">01 · THE SOUL OF KASHGAR</div><h3>喀什古城</h3><p>不要只“打卡”。最好的玩法是放慢速度：从东门进入，在街巷里随意走，找一家茶馆、看手工艺、吃一顿本地饭，再等一场古城夜色。</p><span class="tag">免费</span><span class="tag">全天</span><span class="tag">步行友好</span></div>
+    <div class="spot-list">
+      <div class="spot-item"><strong>白沙湖</strong><span>白色沙山与高原湖泊形成强烈反差，适合作为进山后的第一处视觉高潮。</span></div>
+      <div class="spot-item"><strong>喀拉库勒湖</strong><span>雪山、湖水、高原草甸同框；慕士塔格峰是沿线最具辨识度的背景。</span></div>
+      <div class="spot-item"><strong>石头城 · 金草滩</strong><span>塔县最经典的人文自然组合：古城遗址 + 河谷湿地 + 雪山。</span></div>
+      <div class="spot-item"><strong>盘龙古道 · 班迪尔蓝湖</strong><span>更偏“公路景观”的一段，适合喜欢自驾、航拍和大尺度地形的人。</span></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="plan">
+<div class="wrap">
+  <div class="section-head"><div><div class="kicker">ITINERARY</div><h2>推荐 4 天 3 夜</h2></div><p>节奏不赶：1 天喀什 + 2 天帕米尔 + 1 天塔县/返程。想拍照和慢逛，可把塔县再多留一晚。</p></div>
+  <div class="tabs">
+    <button class="tab active" data-day="d1">DAY 1 · 喀什</button>
+    <button class="tab" data-day="d2">DAY 2 · 进帕米尔</button>
+    <button class="tab" data-day="d3">DAY 3 · 塔县</button>
+    <button class="tab" data-day="d4">DAY 4 · 盘龙 / 返回</button>
+  </div>
+  <div id="d1" class="day active">
+    <div class="daygrid"><div class="time">上午</div><div><b>喀什古城东门</b><br>先逛古城核心街区，观察居民区、传统建筑和手工艺店。</div></div>
+    <div class="daygrid"><div class="time">下午</div><div><b>艾提尕尔广场 → 老城街巷</b><br>把时间留给街巷，不必追求“景点数量”。</div></div>
+    <div class="daygrid"><div class="time">晚上</div><div><b>古城夜景 + 本地美食</b><br>烤包子、缸子肉、抓饭等，按当天状态安排。</div></div>
+  </div>
+  <div id="d2" class="day">
+    <div class="daygrid"><div class="time">早上</div><div><b>喀什出发</b><br>沿314国道进入帕米尔高原，途中逐渐进入高海拔环境。</div></div>
+    <div class="daygrid"><div class="time">中午</div><div><b>白沙湖</b><br>留足拍照时间，观察湖泊、沙丘和雪山的空间关系。</div></div>
+    <div class="daygrid"><div class="time">下午</div><div><b>喀拉库勒湖 → 慕士塔格观景</b><br>根据天气和道路情况调整停留时间，晚上住塔县。</div></div>
+  </div>
+  <div id="d3" class="day">
+    <div class="daygrid"><div class="time">上午</div><div><b>石头城</b><br>了解古丝路南道历史，慢慢走遗址与周边高原景观。</div></div>
+    <div class="daygrid"><div class="time">下午</div><div><b>金草滩 / 帕米尔旅游区</b><br>河谷湿地与石头城同框，是塔县最经典的组合。</div></div>
+    <div class="daygrid"><div class="time">晚上</div><div><b>塔县县城</b><br>早点休息，为第二天的高原公路行程留体力。</div></div>
+  </div>
+  <div id="d4" class="day">
+    <div class="daygrid"><div class="time">上午</div><div><b>盘龙古道 / 班迪尔方向</b><br>具体是否开放、能走到哪里，以当地当日道路和管理信息为准。</div></div>
+    <div class="daygrid"><div class="time">下午</div><div><b>返回塔县 → 喀什</b><br>高原道路不要为了赶时间连续疲劳驾驶。</div></div>
+    <div class="daygrid"><div class="time">晚上</div><div><b>喀什收尾</b><br>如果第二天返程，可以住机场/市区交通方便的位置。</div></div>
+  </div>
+</div>
+</section>
+
+<section class="tips" id="tips">
+<div class="wrap">
+  <div class="section-head"><div><div class="kicker">PRACTICAL</div><h2>出发前最重要的事</h2></div><p>高原旅行的核心不是“带最多东西”，而是给身体、天气和道路变化留余量。</p></div>
+  <div class="tipgrid">
+    <div class="tip"><b>边防证</b><span>前往部分边境区域前提前确认要求和办理地点。政策可能调整，出发前以官方最新信息为准。</span></div>
+    <div class="tip"><b>高海拔</b><span>塔县约 3000m 级别，帕米尔沿线更高。第一天减少剧烈运动，头痛、胸闷等明显不适不要硬撑。</span></div>
+    <div class="tip"><b>昼夜温差</b><span>即使白天阳光强，高原夜间也可能明显降温。薄羽绒/抓绒 + 防风层比单纯厚衣更灵活。</span></div>
+    <div class="tip"><b>防晒补水</b><span>高原紫外线强。墨镜、防晒、帽子和饮水都值得随身携带。</span></div>
+  </div>
+  <div style="height:20px"></div>
+  <div class="checklist">
+    <label class="check"><input type="checkbox"><span><b>身份证</b><br><small>边防及住宿等场景随身携带</small></span></label>
+    <label class="check"><input type="checkbox"><span><b>边防证</b><br><small>按当期政策确认是否需要及覆盖区域</small></span></label>
+    <label class="check"><input type="checkbox"><span><b>防晒 + 墨镜</b><br><small>高原日照强，别只带普通太阳镜</small></span></label>
+    <label class="check"><input type="checkbox"><span><b>保暖层</b><br><small>风衣/抓绒/轻羽绒按季节组合</small></span></label>
+    <label class="check"><input type="checkbox"><span><b>充电宝</b><br><small>长距离路段避免手机低电</small></span></label>
+    <label class="check"><input type="checkbox"><span><b>现金备用</b><br><small>多数地方移动支付方便，但仍建议准备少量现金</small></span></label>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <div class="section-head"><div><div class="kicker">TRAVEL STYLE</div><h2>这趟旅行，别排得太满</h2></div><p>喀什和塔县最有价值的地方，恰恰是“走在路上”的部分。景点可以少一点，停留可以久一点。</p></div>
+  <div class="cards">
+    <div class="card"><div class="num">01</div><h3>人文</h3><p>喀什古城、艾提尕尔、老茶馆、市场与传统手工艺，重点是观察城市生活。</p></div>
+    <div class="card"><div class="num">02</div><h3>自然</h3><p>白沙湖、喀拉库勒湖、慕士塔格、金草滩，把高原的颜色和尺度一次看够。</p></div>
+    <div class="card"><div class="num">03</div><h3>公路</h3><p>314国道和盘龙古道本身就是景点。天气、道路和体力比“必须打卡”更重要。</p></div>
+  </div>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+<div class="wrap">
+  <strong>喀什 · 帕米尔旅行指南</strong>
+  <p>个人旅行规划页面 · 可直接部署到 GitHub Pages</p>
+  <p class="small">景区等级与基础信息参考喀什地区行政公署、文化和旅游部、新疆维吾尔自治区文化和旅游厅及塔什库尔干县政府公开信息。门票、开放时间、道路及边境管理要求可能变化，出发前请以当日官方信息为准。</p>
+</div>
+</footer>
+<script>
+document.querySelectorAll('.tab').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    document.querySelectorAll('.day').forEach(x=>x.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.day).classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
